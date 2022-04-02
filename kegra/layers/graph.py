@@ -1,9 +1,9 @@
 from __future__ import print_function
 
-from keras import activations, initializers, constraints
-from keras import regularizers
-from keras.engine import Layer
-import keras.backend as K
+from tensorflow.keras import activations, initializers, constraints
+from tensorflow.keras import regularizers
+from tensorflow.keras.layers import Layer
+import tensorflow.keras.backend as K
 import tensorflow as tf
 
 class GraphConvolution(Layer):

@@ -1,9 +1,9 @@
 from __future__ import print_function
 
-from keras.layers import Input, Dropout
-from keras.models import Model
-from keras.optimizers import Adam
-from keras.regularizers import l2
+from tensorflow.keras.layers import Input, Dropout
+from tensorflow.keras.models import Model
+from tensorflow.keras.optimizers import Adam
+from tensorflow.keras.regularizers import l2
 
 from kegra.layers.graph import GraphConvolution
 from kegra.utils import *
